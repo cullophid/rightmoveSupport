@@ -1,0 +1,22 @@
+{
+  "name": "creepybot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cullophid/creepybot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cullophid/creepybot/issues"
+  },
+  "homepage": "https://github.com/cullophid/creepybot",
+  "dependencies": {
+    "say": "^0.6.0"
+  }
+}
