@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>Rightmove Support</title>
     <link rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.min.css' />
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <script charset="utf-8" src="/bower_components/jquery/dist/jquery.min.js"></script>
   </head>
   <body>
     <div class="container">
-    <h1>CREEPYBOT</h1>
+    <h1>Welcome to rightmove support</h1>
 
     <p>
-      Type a message in the input field and click "Speak".
-      Creepybot will speak the message out loud in a creepy robot voice
+      Aks a question in the field below. (Make sure you have your sound turned on!)
     </p>
       <form class="" id="speak">
         <div class="form-group form-group-large">
-          <input type="text" name="message" value="I AM CREEPYBOT!! BEEP BOOP!" class="form-control">
+          <input type="text" name="message" value="How do I save my current search ?" class="form-control input-lg">
         </div>
         <div class="form-group form-group-large">
-          <input type="submit" value="Speak!" class="btn btn-block btn-lg btn-primary">
+          <input type="submit" value="Help!" class="btn btn-block btn-lg btn-primary">
         </div>
       </form>
     </div>
+    <audio src="http://tts-api.com/tts.mp3?q=hello" id="player"></audio>
     <script charset="utf-8" src="/javascripts/main.js"></script>
   </body>
 </html>
