@@ -1,6 +1,6 @@
 {
-  "name": "creepybot",
-  "version": "0.0.0",
+  "name": "rightmove-support",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
